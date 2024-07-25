@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_color">#F5F5F5</color>
+    <color name="blue_color">#0E6FFF</color>
+    <color name="gray_999CA0">#999CA0</color>
+    <color name="gray_D8D8D8">#D8D8D8</color>
+    <color name="link_bg">#E8F1FF</color>
+    <color name="dot_strip_color">#A6C7FF</color>
+    <color name="whats_app_bg_border">#4AD15F</color>
+    <color name="whats_app_bg">#484AD15F</color>
+
+</resources>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/bg_color">
+
+<!--    <View-->
+<!--        android:id="@+id/view"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="30dp"-->
+<!--        android:background="@color/bg_color"-->
+<!--        android:layout_alightParentTop="true"-->
+<!--        android:layout_centerHorizontal="true"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/white"
+        android:elevation="0.4dp"
+        android:id="@+id/ll"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/link_ll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/link_iv"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginBottom="5sp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_price_boost"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <TextView
+                android:fontFamily="@font/regular_font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2sp"
+                android:text="@string/links"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/courses_ll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/courses_iv"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginBottom="5sp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_magazine"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <TextView
+                android:fontFamily="@font/regular_font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2sp"
+                android:text="@string/courses"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMatches"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/campaigns_ll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/campaigns_iv"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginBottom="5sp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_fast_forward"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <TextView
+                android:fontFamily="@font/regular_font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2sp"
+                android:text="@string/campaigns"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/profile_ll"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/profile_iv"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginBottom="5sp"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_user"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <TextView
+                android:fontFamily="@font/regular_font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="2sp"
+                android:text="@string/profile"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:id="@+id/top_half_circle"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="90dp"-->
+<!--        android:layout_below="@+id/view"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:background="@drawable/half_circle">-->
+
+<!--        <View-->
+<!--            android:layout_width="70dp"-->
+<!--            android:layout_height="70dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginBottom="30dp"-->
+<!--            android:background="@drawable/full_circle_of_add"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

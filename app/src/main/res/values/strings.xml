@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">OpeninAppDemo</string>
+    <string name="links">Links</string>
+    <string name="courses">Courses</string>
+    <string name="campaigns">Campaigns</string>
+    <string name="profile">Profile</string>
+
+    <string name="no_internet_connection">No Internet Connection</string>
+
+    <string name="link_under_development">Links Screen Under Development</string>
+    <string name="courses_under_development">Courses Screen Under Development</string>
+    <string name="campaigns_under_development">Campaigns Screen Under Development</string>
+    <string name="profile_under_development">Profile Screen Under Development</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="no_delegate_found_for_the_view_type_in">No delegate found for the view type : %d in %s</string>
+    <string name="view_analytics">View Analytics</string>
+    <string name="top_links">Top Links</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="clicks">Clicks</string>
+    <string name="view_all_links">View all Links</string>
+    <string name="talk_with_us">Talk with us!</string>
+    <string name="frequently_ask_questions">Frequently Ask Questions.</string>
+    <string name="recent_links">Recent Links</string>
+</resources>
